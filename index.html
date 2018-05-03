@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CEO Pay Ratio</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+
+
+<form id = "quiz" name = "quiz">
+<img src="Header.jpg" alt="Header" width="620" height="297">
+<img src="HeadshotsBar.jpg" alt="Header" width="620" height="59"><br><br><br>
+
+<p>Firm:</p>
+  <select name = "question1" id = "question1">
+	<option value="Ameriprise Financial">Ameriprise Financial</option>
+	<option value="Bank Of America">Bank Of America</option>
+	<option value="Bank Of New York Mellon">Bank Of New York Mellon</option>
+	<option value="BlackRock">BlackRock</option>
+	<option value="Citigroup">Citigroup</option>
+	<option value="Federated Investors">Federated Investors</option>
+	<option value="Invesco">Invesco</option>
+	<option value="Jpmorgan Chase">Jpmorgan Chase</option>
+	<option value="Morgan Stanley">Morgan Stanley</option>
+	<option value="Northern Trust">Northern Trust</option>
+	<option value="Prudential Financial">Prudential Financial</option>
+	<option value="SEI Investments">SEI Investments</option>
+	<option value="State Street">State Street</option>
+	<option value="T. Rowe Price">T. Rowe Price</option>
+	<option value="Wells Fargo & Company">Wells Fargo and Company</option>
+  </select>
+
+
+<p>Your Pay:</p>
+<input id = "question2" type="number" name = "question2" id = "question2">
+<input id = "button" type = "button" value = "Go" onclick = "check();"/>
+<br><br>
+<br><br><br>
+<p id = "image"></p>
+<p id = "message"></p>
+
+
+<canvas id="myCanvas" width="620" height="550"></canvas>
+<br>
+<p id = "messageTwo" name="messageTwo"></p>
+
+
+</form>
+
+
+</html>
+
+</body>
