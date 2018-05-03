@@ -236,7 +236,7 @@ function check(){
 	ctx.fillText("Your pay",120,35);
 	ctx.fillText("Median pay relative to yours",350,74);
 	ctx.font = "16px Arial";
-	ctx.fillText(CEO + "'s pay relative to yours.",200,350);
+	ctx.fillText(CEO + "'s pay relative to yours.",150,350);
 	
 
 
